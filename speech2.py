@@ -205,7 +205,15 @@ class MainThread(QThread):
                             except Exception:
                                 self.speak("An error occurred while searching Wikipedia.")
 
-                        
+                        elif "virtual game" in self.my_text:
+                            from virtualgame import virtual
+                            self.speak("Virtual game started")
+                            virtual()
+
+                        elif "virtual mouse" in self.my_text:
+                            from virtual_mouse import main
+                            self.speak("Virtual mouse started")
+                            main()
 
                         elif 'whatsapp' in self.my_text:
                             self.send_whatsapp()

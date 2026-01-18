@@ -1,0 +1,17 @@
+opencv-python
+mediapipe
+PyAutoGUI
+numpy
+PyQt5
+SpeechRecognition
+pyttsx3
+pywhatkit
+wikipedia
+openai
+google-generativeai
+plyer
+requests
+beautifulsoup4
+speedtest-cli
+Pillow
+pyaudio
